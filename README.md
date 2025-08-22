@@ -11,7 +11,7 @@ This Personal Codex Agent answers questions about Dean's professional background
 
 ## 🏗️ System Architecture
 
-[React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-o4mini] → [Webhook Response] → [Answer in UI]  
+[React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-o4mini with AI agent] → [Webhook Response] → [Answer in UI]  
 
 ### Design Choices
 
