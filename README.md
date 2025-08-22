@@ -13,8 +13,6 @@ This Personal Codex Agent answers questions about Dean's professional background
 
 [React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-4o]
 
-text
-
 ### Design Choices
 
 1. **n8n for Orchestration**: Chosen for visual workflow management and built-in integrations
@@ -46,7 +44,6 @@ dean_profile/
 ├── supporting_docs # Blog posts, code documentation, personal reflections
 └── self_reflection # Energy sources, collaboration preferences, growth areas
 
-text
 
 ## 🧪 Sample Questions & Expected Responses
 
@@ -77,7 +74,6 @@ created_at TIMESTAMP DEFAULT NOW()
 );
 -- [Insert statements provided in setup files]
 
-text
 
 ### 2. n8n Workflow Import
 1. Import the provided workflow JSON into your n8n instance
@@ -89,7 +85,6 @@ npm install
 npm run build
 npm run deploy
 
-text
 
 ## 🤖 AI Collaboration Artifacts
 
@@ -103,12 +98,10 @@ text
 **Initial Prompt** (too generic):
 "You are an AI assistant that answers questions about Dean"
 
-text
 
 **Final Prompt** (context-aware):
 "You are Dean Jeggels' Personal AI Assistant. Answer questions about Dean in first person using data from the Supabase database. Always query the database first, then respond in Dean's authentic voice with specific examples..."
 
-text
 
 ### AI-Generated vs Manual Code
 
@@ -125,8 +118,6 @@ Copilot: [Generated complete React component with useState hooks]
 Me: "Add loading states and better error handling"
 Copilot: [Enhanced with loading animations and try/catch blocks]
 Final: Manual styling adjustments and UX improvements
-
-text
 
 ## 📈 What I'd Improve With More Time
 
