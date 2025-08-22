@@ -15,10 +15,10 @@ This Personal Codex Agent answers questions about Dean's professional background
 
 ### Design Choices
 
-1. **n8n for Orchestration**: Chosen for visual workflow management and built-in integrations
+1. **n8n for Orchestration**: Chosen for AI agent logic for response to users questions
 2. **Supabase as RAG Database**: Provides structured JSON storage with powerful querying capabilities  
 3. **React UI with Mode Switcher**: Demonstrates different conversation personalities and chatbot functionality
-4. **OpenAI GPT-o4mini**: Latest model for nuanced, contextual responses
+4. **OpenAI GPT-o4mini**: Model for nuanced, contextual responses
 
 ## 🚀 Features
 
