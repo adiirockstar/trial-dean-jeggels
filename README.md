@@ -11,20 +11,20 @@ This Personal Codex Agent answers questions about Dean's professional background
 
 ## 🏗️ System Architecture
 
-[React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-4o]
+[React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-o4mini] → [Webhook Response] → [Answer in UI]  
 
 ### Design Choices
 
 1. **n8n for Orchestration**: Chosen for visual workflow management and built-in integrations
 2. **Supabase as RAG Database**: Provides structured JSON storage with powerful querying capabilities  
 3. **React UI with Mode Switcher**: Demonstrates different conversation personalities
-4. **OpenAI GPT-4o**: Latest model for nuanced, contextual responses
+4. **OpenAI GPT-o4mini**: Latest model for nuanced, contextual responses
 
 ## 🚀 Features
 
 ### Core Functionality
 - ✅ Context-aware responses using real CV and project data
-- ✅ RAG implementation with Supabase vector storage
+- ✅ RAG implementation with Supabase database
 - ✅ Authentic voice representation speaking as Dean
 - ✅ Real-time conversation through webhook integration
 
