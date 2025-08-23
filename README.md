@@ -2,14 +2,14 @@
 
 A context-aware AI agent that authentically represents Dean Jeggels, built using n8n workflows, Supabase RAG, and a modern React interface from bolt.new.
 
-## 🎯 Project Overview
+## Project Overview
 
 This Personal Codex Agent answers questions about Dean's professional background, technical skills, projects, and work philosophy using real data extracted from his CV and supporting documents. It demonstrates AI-native development practices and structured data handling.
 
 **Live Demo**: https://form-ui-with-supabas-hfsr.bolt.host/  
 **Demo Video**: https://youtu.be/_XkahLWTCmc
 
-## 🏗️ System Architecture
+## 🏗System Architecture
 
 ```
 [React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-4o-mini with AI agent] → [Webhook Response] → [Answer in UI]
@@ -22,7 +22,7 @@ This Personal Codex Agent answers questions about Dean's professional background
 3. **React UI with Mode Switcher**: Demonstrates different conversation personalities and chatbot functionality
 4. **OpenAI GPT-4o-mini**: Model for nuanced, contextual responses
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - ✅ Context-aware responses using real CV and project data
@@ -31,12 +31,12 @@ This Personal Codex Agent answers questions about Dean's professional background
 - ✅ Real-time conversation through webhook integration
 
 ### Bonus Features  
-- 🎭 **5 Conversation Modes**: Interview, Storytelling, Fast Facts, Humble Brag, Self-Reflection
-- 🧠 **Self-Reflective Responses**: "What energizes/drains me?", "How do I collaborate best?"
-- 📊 **Structured Data Architecture**: Organized CV and supporting document insights
-- 🎨 **Modern UI**: Clean, responsive interface with sample questions
+-  **5 Conversation Modes**: Interview, Storytelling, Fast Facts, Humble Brag, Self-Reflection
+-  **Self-Reflective Responses**: "What energizes/drains me?", "How do I collaborate best?"
+-  **Structured Data Architecture**: Organized CV and supporting document insights
+-  **Modern UI**: Clean, responsive interface with sample questions
 
-## 💾 Data Structure
+##  Data Structure
 
 The agent draws from structured data in Supabase:
 
@@ -48,7 +48,7 @@ dean_profile/
 └── self_reflection      # Energy sources, collaboration preferences, growth areas
 ```
 
-## 🧪 Sample Questions & Expected Responses
+## Sample Questions & Expected Responses
 
 | Question | Mode | Expected Response Style |
 |----------|------|------------------------|
@@ -59,7 +59,7 @@ dean_profile/
 | "What makes you stand out?" | Humble Brag | Confident presentation of unique achievements |
 | "What kind of work energizes you?" | Self-Reflection | Thoughtful insights about motivation and collaboration |
 
-## 🔧 Setup Instructions (If you were to make your own) 
+##  Setup Instructions (If you were to make your own) 
 
 ### Prerequisites
 - n8n instance (cloud or self-hosted)
@@ -565,7 +565,7 @@ SELECT section, jsonb_pretty(data) FROM dean_profile;
 
 Deployed using bolt.new platform. Make your own ui in bolt.new by asking it to create a chatbot interface linked to your webhook and configure the payload to send the questions and the respective modes.
 
-## 🤖 AI Collaboration Artifacts
+## AI Collaboration Artifacts
 
 ### AI Agents Used
 1. **Claude (Anthropic)** - System architecture and n8n workflow design, content structuring and prompt engineering
@@ -595,7 +595,7 @@ Deployed using bolt.new platform. Make your own ui in bolt.new by asking it to c
 | System Prompts | 90% | 10% | GPT-4 prompt engineering with minor personality adjustments |
 | SQL Data Structure | 60% | 40% | AI suggested schema, manual data organization |
 
-## 📈 What I'd Improve With More Time
+## What I'd Improve With More Time
 
 ### Technical Enhancements
 - **Vector Search**: Implement semantic search for more relevant context retrieval
@@ -613,7 +613,7 @@ Deployed using bolt.new platform. Make your own ui in bolt.new by asking it to c
 - **Authentication**: User sessions and personalized experiences
 - **Monitoring**: Response quality analytics and error tracking
 
-## 🎥 Video Walkthrough
+## Video Walkthrough
 
 **[5-minute demo video covering]**:
 1. UI tour and mode demonstrations
@@ -621,13 +621,13 @@ Deployed using bolt.new platform. Make your own ui in bolt.new by asking it to c
 3. Behind-the-scenes: n8n workflow and Supabase data
 4. AI collaboration process and artifacts
 
-## 🔗 Links
+## Links
 
 - **Live Demo**: https://form-ui-with-supabas-hfsr.bolt.host/
 - **GitHub Repository**: https://github.com/DeanJeggels/UbundiTrialProject
 - **Demo Video**: https://youtu.be/_XkahLWTCmc
 
-## 📊 Evaluation Criteria Coverage
+## Evaluation Criteria Coverage
 
 | Criteria | Implementation | Evidence |
 |----------|---------------|----------|
