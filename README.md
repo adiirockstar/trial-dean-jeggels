@@ -302,8 +302,8 @@ Deployed using bolt.new platform
 
 | Component | AI Generated | Manual Edits | Notes |
 |-----------|-------------|--------------|--------|
-| React UI Structure | 85% | 15% | bolt.new generated base, manual styling tweaks |
-| n8n Workflow Logic | 70% | 30% | Claude designed architecture, manual n8n configuration |
+| React UI Structure | 90% | 10% | bolt.new generated base, manual styling tweaks |
+| n8n Workflow Logic | 20% | 80% | Claude designed prompts and code, manual n8n configuration |
 | System Prompts | 90% | 10% | GPT-4 prompt engineering with minor personality adjustments |
 | SQL Data Structure | 60% | 40% | AI suggested schema, manual data organization |
 
