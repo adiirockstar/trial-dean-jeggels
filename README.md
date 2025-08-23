@@ -353,5 +353,4 @@ Deployed using bolt.new platform
 
 ***
 
-*Built with ❤️ using AI-native development practices*  
 **Dean Jeggels - AI Robotics Engineer & Automation Specialist**
