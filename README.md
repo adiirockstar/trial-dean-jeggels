@@ -7,7 +7,7 @@ A context-aware AI agent that authentically represents Dean Jeggels, built using
 This Personal Codex Agent answers questions about Dean's professional background, technical skills, projects, and work philosophy using real data extracted from his CV and supporting documents. It demonstrates AI-native development practices and structured data handling.
 
 **Live Demo**: https://form-ui-with-supabas-hfsr.bolt.host/  
-**Demo Video**: https://youtu.be/_XkahLWTCmc
+**Demo Video**: https://youtu.be/_XkahLWTCmc   
 **Bolt.new UI source code**: [project-bolt-sb1-a1vtvvpc.zip](https://github.com/user-attachments/files/21948319/project-bolt-sb1-a1vtvvpc.zip)
 
 
