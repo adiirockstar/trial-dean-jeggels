@@ -563,7 +563,7 @@ SELECT section, jsonb_pretty(data) FROM dean_profile;
 
 ### 3. UI Deployment  
 
-Deployed using bolt.new platform
+Deployed using bolt.new platform. Make your own ui in bolt.new by asking it to create a chatbot interface linked to your webhook and configure the payload to send the questions and the respective modes.
 
 ## 🤖 AI Collaboration Artifacts
 
