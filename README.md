@@ -11,7 +11,7 @@ This Personal Codex Agent answers questions about Dean's professional background
 **Bolt.new UI source code**: [project-bolt-sb1-a1vtvvpc.zip](https://github.com/user-attachments/files/21948319/project-bolt-sb1-a1vtvvpc.zip)
 
 
-## 🏗System Architecture
+## System Architecture
 
 
 ```
