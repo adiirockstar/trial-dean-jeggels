@@ -8,8 +8,11 @@ This Personal Codex Agent answers questions about Dean's professional background
 
 **Live Demo**: https://form-ui-with-supabas-hfsr.bolt.host/  
 **Demo Video**: https://youtu.be/_XkahLWTCmc
+**Bolt.new UI source code**: [project-bolt-sb1-a1vtvvpc.zip](https://github.com/user-attachments/files/21948319/project-bolt-sb1-a1vtvvpc.zip)
+
 
 ## 🏗System Architecture
+
 
 ```
 [React UI] → [Webhook] → [n8n Workflow] → [Supabase RAG] → [OpenAI GPT-4o-mini with AI agent] → [Webhook Response] → [Answer in UI]
@@ -564,6 +567,7 @@ SELECT section, jsonb_pretty(data) FROM dean_profile;
 ### 3. UI Deployment  
 
 Deployed using bolt.new platform. Make your own ui in bolt.new by asking it to create a chatbot interface linked to your webhook and configure the payload to send the questions and the respective modes.
+Source code: [project-bolt-sb1-a1vtvvpc.zip](https://github.com/user-attachments/files/21948319/project-bolt-sb1-a1vtvvpc.zip)
 
 ## AI Collaboration Artifacts
 
