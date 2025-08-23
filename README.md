@@ -71,6 +71,7 @@ dean_profile/
 
 Run the provided SQL scripts in supabase to create tables and insert data:
 
+<details>
 <summary>Click to view SQL</summary>
 
 ```sql
