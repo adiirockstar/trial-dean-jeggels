@@ -602,7 +602,6 @@ Source code: [project-bolt-sb1-a1vtvvpc.zip](https://github.com/user-attachments
 ## What I'd Improve With More Time
 
 ### Technical Enhancements
-- **Vector Search**: Implement semantic search for more relevant context retrieval
 - **Conversation Memory**: Persistent chat history across sessions  
 - **Analytics Dashboard**: Track question patterns and response effectiveness
 - **Multi-modal Support**: Add voice input/output capabilities
@@ -613,9 +612,7 @@ Source code: [project-bolt-sb1-a1vtvvpc.zip](https://github.com/user-attachments
 - **Interactive Examples**: Embedded code snippets and project demos
 
 ### Production Features
-- **Rate Limiting**: Prevent API abuse
 - **Authentication**: User sessions and personalized experiences
-- **Monitoring**: Response quality analytics and error tracking
 
 ## Video Walkthrough
 
